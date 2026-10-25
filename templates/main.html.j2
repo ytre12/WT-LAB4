@@ -1,0 +1,17 @@
+{% autoescape true %}
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LAB 4</title>
+</head>
+<body>
+    <main>
+        <h1>Головна</h1>
+        <p>Цю сторінку сформовано на сервері з шаблону Jinja2.</p>
+    		<a href="{{ url_for('info') }}">Інформація</a>
+		</main>
+</body>
+</html>
+{% endautoescape %}
